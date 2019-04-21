@@ -40,7 +40,7 @@ namespace world
         {
             app.Run(async context =>
             {
-                await context.Response.WriteAsync("Hello Hello, World!");
+                await context.Response.WriteAsync("Hello, World!");
             });
 
             if (env.IsDevelopment())
